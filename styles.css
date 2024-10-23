@@ -1,0 +1,71 @@
+html {
+    font-size: 10px                                          
+}
+
+@font-face {
+    font-family: 'Cursed Time Ulil';
+    src: url("./fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 57.5rem;
+    height: 38.5rem;
+    background: #1b244a;
+}
+
+.content__wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 2rem;
+
+    width: 15.5rem;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.score {
+    align-items: center;
+    text-align: center;
+    line-height: 12rem;
+    font-family: 'Cursed Time Ulil';
+    width: 100%;
+    background: black;
+    color: #9AABD8;
+    font-size: 9rem;
+    border-radius: 0.5rem;
+}
+
+.add-points__wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.add-points__content-wrapper {
+    font-family: 'Cursed Time Ulil';
+    display: flex;
+    outline: 2px solid #9AABD8;
+    height: 4.5rem;
+    width: 4.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.add-points__text{
+
+    margin: auto;
+    font-size: 1.8rem;
+    color: #9AABD8;
+}

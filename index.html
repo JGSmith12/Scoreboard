@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content__wrapper">
+                <h3>HOME</h3>
+
+                    <span class="score" id="home-score">0</span>
+
+                <div class="add-points__wrapper">
+                    <div class="add-points__content-wrapper" onclick="point1H()">
+                        <span class="add-points__text">+1</span>
+                    </div>
+                    <div class="add-points__content-wrapper" onclick="point2H()">
+                        <span class="add-points__text">+2</span>
+                    </div>
+                    <div class="add-points__content-wrapper" onclick="point3H()">
+                        <span class="add-points__text">+3</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="content__wrapper">
+                    <h3>GUEST</h3>
+
+                        <span class="score" id="guest-score">0</span>
+                        <div class="add-points__wrapper">
+                            <div class="add-points__content-wrapper" onclick="point1G()">
+                                <span class="add-points__text">+1</span>
+                            </div>
+                            <div class="add-points__content-wrapper" onclick="point2G()">
+                                <span class="add-points__text">+2</span>
+                            </div>
+                            <div class="add-points__content-wrapper" onclick="point3G()">
+                                <span class="add-points__text">+3</span>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
